@@ -64,10 +64,12 @@ Winning Percentage by Strategy (1000 games):
 * Stay:   0.347
 * Random: 0.512
 * Switch: 0.654
+
 Winning Percentage by Strategy (10000 games):
 * Stay:   0.3235
 * Random: 0.4935
 * Switch: 0.6666
+
 Winning Percentage by Strategy (100000 games):
 * Stay:   0.33279
 * Random: 0.50088
