@@ -76,7 +76,7 @@ class Contestant(object):
             chosenDoor = possibleDoors[0]
             for door in doors:
                 door.chosen = False
-                chosenDoor.chosen = True
+            chosenDoor.chosen = True
 
 def simulate(strategy, number):
     wins = 0
