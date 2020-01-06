@@ -1,6 +1,16 @@
+# Simulating the Monty Hall Problem
+
+## Purpose
+
 I want to create a simulation of the [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall_problem)
 that I first read about in [The Curious Incident of the Dog in the
 Night-Time](https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time).
+
+This is partially to convince myself of the mathematical analysis and
+partially just a brief exercise in using the Monte Carlo method to
+simulate a real world problem.
+
+## Implementation
 
 I start by defining a number of classes for each object that I want to
 represent. The objects in this simulation are Game, Door, Host, and
@@ -38,3 +48,28 @@ for each strategy after playing 1000, 10,000, and 100,000 times. The
 results line up with what we would expect based on the math (see link),
 but some may be better able to convince themselves of this result when
 seeing empirical evidence.
+
+## Running
+
+`python3 main.py`
+
+Note that the simulation may slow down noticeably as the number of
+games increases.
+
+## Results
+
+Here are some sample results:
+
+Winning Percentage by Strategy (1000 games):
+stay: 0.337
+random: 0.504
+switch: 0.676
+Winning Percentage by Strategy (10000 games):
+stay: 0.3335
+random: 0.5037
+switch: 0.668
+Winning Percentage by Strategy (100000 games):
+stay: 0.33424
+random: 0.49892
+switch: 0.66681
+
