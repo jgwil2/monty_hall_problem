@@ -30,7 +30,8 @@ class Game(object):
 
 class Door(object):
     '''
-    A door either conceals a car or a goat behind it.
+    A door either conceals a car or a goat behind it. A door can be
+    chosen by a contestant or not, and revealed by the host or not.
     '''
     def __init__(self, prize):
         self.prize = prize
@@ -92,17 +93,17 @@ def simulate(strategy, number):
 
 def main():
     print('Winning Percentage by Strategy (1000 games):')
-    print('stay:', simulate('stay', 1000))
-    print('random:', simulate('random', 1000))
-    print('switch:', simulate('switch', 1000))
+    print('Stay:  ', simulate('stay', 1000))
+    print('Random:', simulate('random', 1000))
+    print('Switch:', simulate('switch', 1000))
     print('Winning Percentage by Strategy (10000 games):')
-    print('stay:', simulate('stay', 10000))
-    print('random:', simulate('random', 10000))
-    print('switch:', simulate('switch', 10000))
+    print('Stay:  ', simulate('stay', 10000))
+    print('Random:', simulate('random', 10000))
+    print('Switch:', simulate('switch', 10000))
     print('Winning Percentage by Strategy (100000 games):')
-    print('stay:', simulate('stay', 100000))
-    print('random:', simulate('random', 100000))
-    print('switch:', simulate('switch', 100000))
+    print('Stay:  ', simulate('stay', 100000))
+    print('Random:', simulate('random', 100000))
+    print('Switch:', simulate('switch', 100000))
 
 
 if __name__ == '__main__':

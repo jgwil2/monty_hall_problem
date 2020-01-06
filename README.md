@@ -61,15 +61,15 @@ games increases.
 Here are some sample results:
 
 Winning Percentage by Strategy (1000 games):
-stay: 0.337
-random: 0.504
-switch: 0.676
+* Stay:   0.347
+* Random: 0.512
+* Switch: 0.654
 Winning Percentage by Strategy (10000 games):
-stay: 0.3335
-random: 0.5037
-switch: 0.668
+* Stay:   0.3235
+* Random: 0.4935
+* Switch: 0.6666
 Winning Percentage by Strategy (100000 games):
-stay: 0.33424
-random: 0.49892
-switch: 0.66681
+* Stay:   0.33279
+* Random: 0.50088
+* Switch: 0.66391
 
